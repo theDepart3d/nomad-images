@@ -1,0 +1,32 @@
+{
+    "license": "GPL-3.0",
+    "type": "project",
+    "name": "thedepart3d/nomad-images",
+    "description": "Community/Personal Image Hosting",
+    "homepage": "https://github.com/theDepart3d/nomad-images",
+    "keywords": [
+        "image-hosting",
+        "gallery",
+        "self-hosted"
+    ],
+    "authors": [
+        {
+            "name": "The Depart3d",
+            "email": "thedepart3d@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.4",
+        "ext-exif": "*",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "phpmailer/phpmailer": "~6.6",
+        "jbroadway/urlify": "~1.2.4-stable",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "mlocati/ip-lib": "^1.18"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "vendor-dir": "app/vendor"
+    }
+}
