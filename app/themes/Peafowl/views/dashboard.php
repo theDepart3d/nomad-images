@@ -12,7 +12,7 @@ function read_the_docs_settings($key, $subject)
 
 function get_docs_link($key, $subject)
 {
-    return '<a href="' . get_documentationBaseUrl() . $key . '" target="_blank">' . $subject . '</a>';
+    return '<a href="https://github.com/theDepart3d/nomad-images/wiki" target="_blank">' . $subject . '</a>';
 }
 function free_version_warning($wrap=true)
 {
