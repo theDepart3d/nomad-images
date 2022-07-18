@@ -263,7 +263,7 @@ try {
             'lang_subdomain_wildcard' => 0,
             'user_subdomain_wildcard' => 0,
             'website_https' => 'auto',
-            'upload_gui' => 'page',
+            'upload_gui' => 'js',
             'recaptcha_version' => '2',
             'force_recaptcha_contact_page' => 1,
             'dump_update_query' => 0,
