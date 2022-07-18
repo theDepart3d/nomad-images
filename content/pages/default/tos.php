@@ -18,12 +18,7 @@
 			
 			<h2>Custom styles and coding</h2>
 			
-			<p>Chevereto pages uses PHP code which gives you the power to highly customize how a page should look and operate. You can use your own header, footer, style sheets, etc. You can even create pages that look completely different from the main site look and and use all the system classes and functions (Both G\ and Chevereto) to make it easier and yet more powerful.</p>
-			
-			<h2>More help</h2>
-			
-			<p>If you need more help we suggest you to read the <a href="https://v3-docs.chevereto.com/">Chevereto documentation</a>. View the code of this file will also help you to understand the magic behind this system. Go to <a href="https://chevereto.com/support">Chevereto support</a> if needed.</p>
-			
+			<p>NomadImages pages uses PHP code which gives you the power to highly customize how a page should look and operate. You can use your own header, footer, style sheets, etc. You can even create pages that look completely different from the main site look and and use all the system classes and functions (Both G\ and NomadImages) to make it easier and yet more powerful.</p>
 		</div>
 	</div>
 </div>
