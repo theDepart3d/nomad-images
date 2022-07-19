@@ -25,7 +25,7 @@ if (is_upload_allowed() && (CHV\getSetting('upload_gui') == 'js' || G\is_route('
 <?php echo CHV\getSetting('analytics_code'); ?>
 <script>
     $(document).ready(function(e) {
-    $('#top-bar').change(function() {
+    $('body').on('change', '#top-bar', function() {
         if ($('#top-bar').hasClass('white')) {
             console.log('white');
         } else {
