@@ -25,13 +25,10 @@ if (is_upload_allowed() && (CHV\getSetting('upload_gui') == 'js' || G\is_route('
 <?php echo CHV\getSetting('analytics_code'); ?>
 <script>
     $(document).ready(function(e) {
-        $('#top-bar').change(function() {
-            if ($(this).hasClass('white')) {
-                console.log(true);
-            } else {
-                console.log(false);
-            }
-        }); 
+        $($('#top-bar').hasClass('white')).on("change", function() {
+             console.log('dsd');
+            //change something based on what the user has selected or clicked
+        });
     });
 </script>
 </body>
