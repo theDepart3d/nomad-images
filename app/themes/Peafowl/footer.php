@@ -25,13 +25,15 @@ if (is_upload_allowed() && (CHV\getSetting('upload_gui') == 'js' || G\is_route('
 <?php echo CHV\getSetting('analytics_code'); ?>
 <script>
 $(document).ready(function(e) {
-    $('#top-bar').on('change', function() {
-        if ($(this).hasClass('white')) {
-            console.log(true);
-        } else {
-            console.log(false);
+    $('[data-action=top-bar-tone]').on('click', function() {
+        if ($('#top-bar').hasClass('white')) {
+            img_url = $('#logo a img').attr('src').replace('logo.png', 'logo-w.png');
+            $('#logo img').attr('src', img_url);
+        } else if ($('#top-bar').hasClass('black')) {
+            img_url = $('#logo a img').attr('src').replace('logo-w.png', 'logo.png');
+            $('#logo img').attr('src', img_url);
         }
-    }); 
+    });
 });
 </script>
 </body>
