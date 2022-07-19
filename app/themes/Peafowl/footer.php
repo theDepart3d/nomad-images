@@ -23,6 +23,16 @@ if (is_upload_allowed() && (CHV\getSetting('upload_gui') == 'js' || G\is_route('
 <?php CHV\Render\showPingPixel(); ?>
 
 <?php echo CHV\getSetting('analytics_code'); ?>
-
+<script>
+    $(document).ready(function(e) {
+    $('#top-bar').change(function() {
+        if ($('#top-bar').hasClass('white')) {
+            console.log('white');
+        } else {
+            console.log('black');   
+        } 
+    });
+});
+</script>
 </body>
 </html>

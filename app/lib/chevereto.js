@@ -9,15 +9,7 @@
   file that was distributed with this source code.
 
   --------------------------------------------------------------------- */
-  $(document).ready(function(e) {
-    $('#top-bar').change(function() {
-        if ($('#top-bar').hasClass('white')) {
-            console.log('white');
-        } else {
-            console.log('black');   
-        } 
-    });
-});
+  
 $(function () {
     // Window listeners
     $(window).on("resize", function () {
